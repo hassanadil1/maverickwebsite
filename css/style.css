@@ -214,7 +214,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #FFFFFF !important;
+    background: #0a0505 !important;
     border-radius: 50px;
     border: 1px dashed var(--primary) !important;
 }
@@ -241,8 +241,7 @@
 
 /*** Category ***/
 .cat-item div {
-    background: #FFFFFF;
-    border: 1px dashed rgba(0, 185, 142, .3);
+    background: #090707;
     transition: .5s;
 }
 
@@ -256,7 +255,7 @@
 }
 
 .cat-item:hover div * {
-    color: #FFFFFF !important;
+    color: #100a0a !important;
 }
 
 
@@ -283,11 +282,11 @@
 }
 
 .property-item .border-top {
-    border-top: 1px dashed rgba(0, 185, 142, .3) !important;
+    border-top: 1px dashed rgba(3, 8, 7, 0.3) !important;
 }
 
 .property-item .border-end {
-    border-right: 1px dashed rgba(0, 185, 142, .3) !important;
+    border-right: 1px dashed rgba(0, 1, 1, 0.3) !important;
 }
 
 
@@ -371,6 +370,7 @@
 
 
 /*** Footer ***/
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;
